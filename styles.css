@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::placeholder {
+    color: #ffffff;
+    opacity: 30%;
+}
+
+body {
+    background: #141414;
+    background-image: url("https://wallpaperaccess.com/full/3658600.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    text-align: center;
+}
+
+.main-card {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 40px 10px;
+    width: 450px;
+    height: 550px;
+    background: #0c0c0c;
+    border: 15px solid #dfdfdf;
+}
+
+h1 {
+    font-family: 'Poiret One', cursive;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+p {
+    font-family: 'Poiret One', cursive;
+    color: #ffffff;
+    font-size: 32px;
+    padding: 0 20px;
+    margin-top: 20px;
+}
+
+input:focus {
+    outline: 2px solid #ffffff;
+}
+
+input:focus::placeholder {
+    color: transparent;
+}
+
+input {
+    background-color: #141414;
+    color: #ffffff;
+    border: 0.5px solid #ffffff;
+    border-radius: 0.5rem;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+}
+
+button {
+    font-family: 'Coda', cursive;
+    text-transform: uppercase;
+    background-color: #141414;
+    color: #ffffff;
+    border: 0.5px solid #ffffff;
+    border-radius: 0.25rem;
+    padding: 10px 15px;
+    margin: 5px 0;
+}
+
+
+button:hover {
+    background: #0c0c0c;
+    transition: 200ms;
+}
+
+button:active {
+    background: #535353;
+    transition: 200ms;
+}
