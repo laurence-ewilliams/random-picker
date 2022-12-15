@@ -89,3 +89,10 @@ button:active {
     background: #535353;
     transition: 200ms;
 }
+
+@media (max-width: 700px) {
+    body {
+        background-position-x: -200px;
+    }
+}
+    
