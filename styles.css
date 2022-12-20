@@ -11,7 +11,6 @@
 
 body {
     background: url("https://wallpaperaccess.com/full/3658600.jpg") no-repeat center center fixed;
-    background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     width: 100vw;
