@@ -10,16 +10,12 @@
 }
 
 body {
-    background: #141414;
-    background-image: url("https://wallpaperaccess.com/full/3658600.jpg");
+    background: url("https://wallpaperaccess.com/full/3658600.jpg") no-repeat center center fixed;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
-    justify-content: center;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
-    position: relative;
-    text-align: center;
 }
 
 .main-card {
@@ -89,10 +85,3 @@ button:active {
     background: #535353;
     transition: 200ms;
 }
-
-@media (max-width: 700px) {
-    body {
-        background-position-x: -200px;
-    }
-}
-    
