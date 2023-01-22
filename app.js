@@ -26,5 +26,5 @@ function createList() {
 
     let chosenMovie = movieList[randomNum];
     
-    document.querySelector('p').innerText = `Today, you should watch:\n${chosenMovie}`;
+    document.querySelector('span').innerText = chosenMovie;
 }
